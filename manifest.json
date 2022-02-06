@@ -1,0 +1,20 @@
+{
+  "author": "igorlogius",
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "startpage",
+      "search_url": "https://www.startpage.com/do/dsearch?query={searchTerms}&cat=web&pl=ext-ff&language=english",
+      "is_default": true
+    }
+  },
+  "description": "adds startpage.com as the default search engine, nothing more",
+  "icons": {
+    "128": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "startpage-searchengine-only",
+  "permissions": [
+    "search"
+  ],
+  "version": "1.0.0"
+}
